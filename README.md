@@ -5,8 +5,8 @@
 - Programação (Código feito utilizando Python)
 
 <b>Componentes do robô:</b><br>
--Peças de lego para o chassis<br>
--1 raspberry pi 3<br>
+-Peças de lego para o chassi<br>
+-1 Raspberry Pi 3 - Model B<br>
 -1 Brick Pi<br>
 -1 Arduino Uno<br>
 -Sensor Shield Para Arduino V5 Digital Analógico Servo<br>
@@ -16,7 +16,7 @@
 
 <b>Fatores que serão melhorados/implementados para Etapa Estadual</b>
 - Conclusão e correção da programação<br>
-- Aperfeiçoamento do chassis do carro e posicionamentos do sensores<br>
+- Aperfeiçoamento do chassi do carro e posicionamentos dos sensores<br>
 - Aperfeiçoamento da mecânica geral do robô para melhorar o centro de massa e diminuir sua altura<br>
 - Aperfeiçoamento do mecanismo de recolher as vitímas<br>
 
