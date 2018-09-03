@@ -64,21 +64,21 @@ try:
                     GPIO.output(s2,GPIO.LOW)
                     GPIO.output(s3,GPIO.LOW)
                     sleep(0.3)
-                    start = time()
+                    start1 = time()
                     for impulse_count in range(NUM_CYCLES):
                       GPIO.wait_for_edge(signal1, GPIO.FALLING)
-                    duration = time() - start 
-                    red1  = NUM_CYCLES / duration
+                    duration1 = time() - start1 
+                    red1  = NUM_CYCLES / duration1
 
                     #RGB 2
                     GPIO.output(s22,GPIO.LOW)
                     GPIO.output(s23,GPIO.LOW)
                     sleep(0.3)
-                    start = time()
+                    start2 = time()
                     for impulse_count in range(NUM_CYCLES):
                       GPIO.wait_for_edge(signal2, GPIO.FALLING)
-                    duration = time() - start 
-                    red2  = NUM_CYCLES / duration
+                    duration2 = time() - start2
+                    red2  = NUM_CYCLES / duration2
     
                     if (red1 > 8000) and (red1 < 11000):               
                         if (red2 > 8000) and (red2 < 11000):
