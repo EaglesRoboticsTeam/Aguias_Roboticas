@@ -1,6 +1,6 @@
 import brickpi3
 import RPi.GPIO as GPIO
-from time import sleep
+from time import sleep, time
 
 BP = brickpi3.BrickPi3()
 
