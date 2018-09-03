@@ -78,7 +78,7 @@ try:
                     for impulse_count in range(NUM_CYCLES):
                       GPIO.wait_for_edge(signal2, GPIO.FALLING)
                     duration = time() - start 
-                    red1  = NUM_CYCLES / duration
+                    red2  = NUM_CYCLES / duration
     
                     if (red1 > 8000) and (red1 < 11000):               
                         if (red2 > 8000) and (red2 < 11000):
